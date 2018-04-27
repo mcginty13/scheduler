@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace AgileACW_WPF2
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AssessmentSelectPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AssessmentSelectPage : Page
     {
-        public MainWindow()
+        public AssessmentSelectPage()
         {
             InitializeComponent();
-            Content = new AssessmentSelectPage();
         }
     }
 }
