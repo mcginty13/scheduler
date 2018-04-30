@@ -33,7 +33,6 @@ namespace scheduler
         DateTime extensionDate;
         DateTime feedbackDate;
         string comment;
-        bool scheduled;
 
         public string GetAssCode()
         {
