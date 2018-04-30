@@ -10,19 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AgileACW_WPF2
+namespace scheduler
 {
     /// <summary>
-    /// Interaction logic for AssessmentSelectPage.xaml
+    /// Interaction logic for ReferenceWindow.xaml
     /// </summary>
-    public partial class AssessmentSelectPage : Page
+    public partial class ReferenceWindow : Window
     {
-        public AssessmentSelectPage()
+        public ReferenceWindow(string assessmentCode)
         {
             InitializeComponent();
+        }
+
+        private void closebutton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

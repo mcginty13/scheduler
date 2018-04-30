@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace AgileACW_WPF2
+namespace scheduler
 {
     /// <summary>
     /// Interaction logic for App.xaml

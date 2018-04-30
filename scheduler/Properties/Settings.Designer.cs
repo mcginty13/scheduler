@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AgileACW_WPF2.Properties
+namespace scheduler.Properties
 {
 
 

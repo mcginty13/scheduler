@@ -13,17 +13,39 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AgileACW_WPF2
+namespace scheduler
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public enum UserType
+        {
+            manager,
+            student,
+            admin
+        }
+
+        public static UserType userType;
+        public static int user_ID;
         public MainWindow()
         {
-            InitializeComponent();
-            Content = new AssessmentSelectPage();
+            LoginWindow login = new LoginWindow();
+            bool result = (bool)login.ShowDialog();
+
+            if (result)
+            {
+                InitializeComponent();
+                Content = new TaskSelectPage();
+            }
+            else
+            {
+                this.Close();
+            }
+
+
+
         }
     }
 }

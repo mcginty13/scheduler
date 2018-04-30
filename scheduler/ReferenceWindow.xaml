@@ -1,0 +1,13 @@
+﻿<Window x:Class="scheduler.ReferenceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:scheduler"
+        mc:Ignorable="d"
+        Title="ReferenceWindow" Height="450" Width="463.969">
+    <Grid>
+        <TextBlock Text="will display stuff about the currently open assessment and links to useful sites"/>
+        <Button x:Name="closebutton" Content="close" Width="50" Height=" 20" Click="closebutton_Click"/>
+    </Grid>
+</Window>
